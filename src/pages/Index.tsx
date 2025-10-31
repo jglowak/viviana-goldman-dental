@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import Insurance from "@/components/Insurance";
+import WhyChooseUs from "@/components/WhyChooseUs";
 import Location from "@/components/Location";
 import Contact from "@/components/Contact";
 import WhatsAppButton from "@/components/WhatsAppButton";
@@ -17,7 +17,7 @@ const Index = () => {
       "@type": ["Dentist", "LocalBusiness"],
       "name": "Dra. Viviana Goldman - Odontóloga",
       "image": "https://vivianagoldman.com.ar/og-image.jpg",
-      "description": "Consultorio odontológico en Villa Crespo, Buenos Aires. Atención con OSDE, Galeno y Swiss Medical.",
+      "description": "Consultorio odontológico en Villa Crespo, Buenos Aires. Prótesis, estética, endodoncia e implantes. Atención particular personalizada.",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "Av. Corrientes 5500",
@@ -48,7 +48,7 @@ const Index = () => {
           "closes": "13:00"
         }
       ],
-      "paymentAccepted": "OSDE, Galeno, Swiss Medical",
+      "paymentAccepted": "Efectivo, Transferencia, Sancor Salud",
       "areaServed": {
         "@type": "City",
         "name": "Buenos Aires"
@@ -65,7 +65,7 @@ const Index = () => {
     <main className="min-h-screen">
       <Hero />
       <Services />
-      <Insurance />
+      <WhyChooseUs />
       <Location />
       <Contact />
       <WhatsAppButton />

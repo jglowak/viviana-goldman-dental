@@ -3,24 +3,24 @@ import { Card } from "@/components/ui/card";
 
 const services = [
   {
-    icon: Smile,
-    title: "Odontología General",
-    description: "Tratamientos preventivos, limpiezas, obturaciones y cuidado integral de tu salud bucal."
+    icon: Layers,
+    title: "Prótesis Dental",
+    description: "Restauración de piezas dentales con prótesis fijas y removibles de alta calidad."
   },
   {
     icon: Sparkles,
     title: "Estética Dental",
-    description: "Blanqueamiento, carillas y tratamientos para lograr la sonrisa que siempre soñaste."
+    description: "Blanqueamiento, carillas y diseño de sonrisa para lograr resultados naturales."
+  },
+  {
+    icon: Smile,
+    title: "Endodoncia",
+    description: "Tratamiento de conducto especializado para salvar tus dientes naturales."
   },
   {
     icon: Braces,
-    title: "Ortodoncia",
-    description: "Corrección de la posición dental con brackets tradicionales e invisibles."
-  },
-  {
-    icon: Layers,
-    title: "Implantes",
-    description: "Reemplazo de piezas dentales perdidas con soluciones permanentes y naturales."
+    title: "Implantes Dentales",
+    description: "Reemplazo permanente de piezas perdidas con implantes de última generación."
   }
 ];
 

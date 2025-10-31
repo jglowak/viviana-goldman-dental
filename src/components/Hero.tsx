@@ -25,12 +25,12 @@ const Hero = () => {
             <span className="block text-primary mt-2">Dra. Viviana Goldman</span>
           </h1>
           
-          <p className="text-xl text-muted-foreground mb-4">
-            Cuidado dental profesional con tecnología de última generación
+          <p className="text-2xl text-foreground mb-4 font-medium">
+            Atención personalizada para tu salud dental
           </p>
           
           <p className="text-lg text-muted-foreground mb-8">
-            Atención con <strong className="text-foreground">OSDE, Galeno y Swiss Medical</strong>
+            Especialistas en prótesis, estética, endodoncia e implantes dentales
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
